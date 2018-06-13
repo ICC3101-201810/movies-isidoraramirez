@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ultimo_lab
 {
+    [Serializable]
     public abstract class Persona
     {
         public string nombre, apellido, fecha_nacimiento, biografia;

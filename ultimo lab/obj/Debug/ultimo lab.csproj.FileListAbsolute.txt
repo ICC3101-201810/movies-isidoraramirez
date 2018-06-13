@@ -8,3 +8,13 @@ C:\Users\IRG\source\repos\ultimo lab\ultimo lab\obj\Debug\ultimo lab.csproj.Gene
 C:\Users\IRG\source\repos\ultimo lab\ultimo lab\obj\Debug\ultimo lab.csproj.CoreCompileInputs.cache
 C:\Users\IRG\source\repos\ultimo lab\ultimo lab\obj\Debug\ultimo lab.exe
 C:\Users\IRG\source\repos\ultimo lab\ultimo lab\obj\Debug\ultimo lab.pdb
+C:\Users\IRG\Desktop\movies-isidoraramirez\ultimo lab\bin\Debug\ultimo lab.exe.config
+C:\Users\IRG\Desktop\movies-isidoraramirez\ultimo lab\bin\Debug\ultimo lab.exe
+C:\Users\IRG\Desktop\movies-isidoraramirez\ultimo lab\bin\Debug\ultimo lab.pdb
+C:\Users\IRG\Desktop\movies-isidoraramirez\ultimo lab\obj\Debug\ultimo lab.csprojResolveAssemblyReference.cache
+C:\Users\IRG\Desktop\movies-isidoraramirez\ultimo lab\obj\Debug\ultimo_lab.Form1.resources
+C:\Users\IRG\Desktop\movies-isidoraramirez\ultimo lab\obj\Debug\ultimo_lab.Properties.Resources.resources
+C:\Users\IRG\Desktop\movies-isidoraramirez\ultimo lab\obj\Debug\ultimo lab.csproj.GenerateResource.cache
+C:\Users\IRG\Desktop\movies-isidoraramirez\ultimo lab\obj\Debug\ultimo lab.csproj.CoreCompileInputs.cache
+C:\Users\IRG\Desktop\movies-isidoraramirez\ultimo lab\obj\Debug\ultimo lab.exe
+C:\Users\IRG\Desktop\movies-isidoraramirez\ultimo lab\obj\Debug\ultimo lab.pdb

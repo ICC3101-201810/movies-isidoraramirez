@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ultimo_lab
 {
+    [Serializable]
     public class Estudio
     {
         public string nombre, direccion, fecha_apertura;

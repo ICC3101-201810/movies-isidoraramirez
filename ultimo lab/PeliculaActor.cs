@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ultimo_lab
 {
+    [Serializable]
     public class PeliculaActor
     {
         public Pelicula pelicula;

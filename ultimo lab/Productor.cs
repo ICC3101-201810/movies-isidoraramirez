@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ultimo_lab
 {
+    [Serializable]
     public class Productor : Persona
     {
         public Productor(string nombre, string apellido, string fecha_nacimiento, string biografia) : base(nombre, apellido, fecha_nacimiento, biografia)

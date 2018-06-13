@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ultimo_lab
 {
+    [Serializable]
     public class BaseDeDatos
     {
         public List<Persona> personas;
@@ -22,16 +23,50 @@ namespace ultimo_lab
             peliculasproductores = new List<PeliculaProductor>();
             estudios = new List<Estudio>();
         }
-        public void Seleccionar()
+        public List<string> SeleccionarTodo(string buscar)
         {
-            List<object> todo = new List<object>();
-            IEnumerable<object> todos = 
-                from cosa in (this.personas , this.peliculas, this.peliculasactores, this.peliculasproductores, this.estudios)
-            for (int i = 0; i < 50; i++)
+            List<string> todo = new List<string>();
+            todo.Add(personas.Where(ingresado => ingresado.nombre.ToUpper().Contains(buscar.ToUpper()) || ingresado.apellido.ToUpper().Contains(buscar.ToUpper())).Select(ingresado => ingresado.nombre).ToString());
+            todo.Add(peliculas.Where(ingresado => ingresado.nombre.ToUpper().Contains(buscar.ToUpper()) || ingresado.descripcion.ToUpper().Contains(buscar.ToUpper())).Select(ingresado => ingresado.nombre).ToString());
+            todo.Add(estudios.Where(ingresado => ingresado.nombre.ToUpper().Contains(buscar.ToUpper()) || ingresado.direccion.ToUpper().Contains(buscar.ToUpper())).Select(ingresado => ingresado.nombre).ToString());
+            return todo;
+        }
+        public List<Persona> SeleccionarProductores()
+        {
+            List<Persona> prod = new List<Persona>();
+            foreach(Persona persona in personas)
             {
-                todo.Add(from personas );
-
+                if(persona is Productor)
+                {
+                    prod.Add(persona);
+                }
             }
+            return prod;
+        }
+        public List<Persona> SeleccionarActores()
+        {
+            List<Persona> act = new List<Persona>();
+            foreach (Persona persona in personas)
+            {
+                if (persona is Productor)
+                {
+                    act.Add(persona);
+                }
+            }
+            return act;
+        }
+        public List<Persona> SeleccionarDirectores()
+        {
+            List<Persona> dir = new List<Persona>();
+            foreach (Persona persona in personas)
+            {
+                if (persona is Productor)
+                {
+                    dir.Add(persona);
+                }
+            }
+            return dir;
         }
     }
 }
+ 
